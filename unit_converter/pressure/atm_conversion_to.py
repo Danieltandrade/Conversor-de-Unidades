@@ -1,5 +1,5 @@
 """
-Code with functions for converting pressure values into Atm for:
+Code with functions for converting distance values into Atm for:
 1 - Bar
 2 - Kgf/m²
 3 - Pascal

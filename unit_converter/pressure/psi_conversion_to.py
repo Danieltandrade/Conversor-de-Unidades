@@ -11,7 +11,7 @@ def psi_to_atm(psi_input: float):
     Function for converting the pressure value in Psi to Atm.
 
     Args:
-        atm_input (float): Input with pressure value in Psi.
+        psi_input (float): Input with pressure value in Psi.
 
     Returns:
         float: Pressure value converted into Atm.
@@ -25,7 +25,7 @@ def psi_to_bar(psi_input: float):
     Function for converting the pressure value in Psi to Bar.
 
     Args:
-        atm_input (float): Input with pressure value in Psi.
+        psi_input (float): Input with pressure value in Psi.
 
     Returns:
         float: Pressure value converted into Bar.
@@ -39,7 +39,7 @@ def psi_to_kgfm(psi_input: float):
     Function for converting the pressure value in Psi to Kgf/m².
 
     Args:
-        atm_input (float): Input with pressure value in Psi.
+        psi_input (float): Input with pressure value in Psi.
 
     Returns:
         float: Pressure value converted into Kgf/m².
@@ -53,7 +53,7 @@ def psi_to_pa(psi_input: float):
     Function for converting the pressure value in Psi to Pascal.
 
     Args:
-        atm_input (float): Input with pressure value in Psi.
+        psi_input (float): Input with pressure value in Psi.
 
     Returns:
         float: Pressure value converted into Pascal.

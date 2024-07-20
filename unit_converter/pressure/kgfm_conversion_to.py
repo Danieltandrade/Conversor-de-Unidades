@@ -11,7 +11,7 @@ def kgfm_to_atm(kgfm_input):
     Function for converting the pressure value in Kgf/m² to Atm.
 
     Args:
-        atm_input (float): Input with pressure value in Kgf/m².
+        kgfm_input (float): Input with pressure value in Kgf/m².
 
     Returns:
         float: Pressure value converted into Atm.
@@ -25,7 +25,7 @@ def kgfm_to_bar(kgfm_input):
     Function for converting the pressure value in Kgf/m² to Bar.
 
     Args:
-        atm_input (float): Input with pressure value in Kgf/m².
+        kgfm_input (float): Input with pressure value in Kgf/m².
 
     Returns:
         float: Pressure value converted into Bar.
@@ -39,7 +39,7 @@ def kgfm_to_pa(kgfm_input):
     Function for converting the pressure value in Kgf/m² to Pascal.
 
     Args:
-        atm_input (float): Input with pressure value in Kgf/m².
+        kgfm_input (float): Input with pressure value in Kgf/m².
 
     Returns:
         float: Pressure value converted into Pascal.
@@ -53,7 +53,7 @@ def kgfm_to_psi(kgfm_input):
     Function for converting the pressure value in Kgf/m² to Psi.
 
     Args:
-        atm_input (float): Input with pressure value in Kgf/m².
+        kgfm_input (float): Input with pressure value in Kgf/m².
 
     Returns:
         float: Pressure value converted into Psi.

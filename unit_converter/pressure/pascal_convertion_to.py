@@ -11,7 +11,7 @@ def pascal_to_atm(pa_input: float):
     Function for converting the pressure value in Pascal to Atm.
 
     Args:
-        atm_input (float): Input with pressure value in Pascal.
+        pa_input (float): Input with pressure value in Pascal.
 
     Returns:
         float: Pressure value converted into Atm.
@@ -25,7 +25,7 @@ def pascal_to_bar(pa_input: float):
     Function for converting the pressure value in Pascal to Bar.
 
     Args:
-        atm_input (float): Input with pressure value in Pascal.
+        pa_input (float): Input with pressure value in Pascal.
 
     Returns:
         float: Pressure value converted into Bar.
@@ -39,7 +39,7 @@ def pascal_to_kgfm(pa_input: float):
     Function for converting the pressure value in Pascal to Kgf/m².
 
     Args:
-        atm_input (float): Input with pressure value in Pascal.
+        pa_input (float): Input with pressure value in Pascal.
 
     Returns:
         float: Pressure value converted into Kgf/m².
@@ -53,7 +53,7 @@ def pascal_to_psi(pa_input: float):
     Function for converting the pressure value in Pascal to Psi.
 
     Args:
-        atm_input (float): Input with pressure value in Pascal.
+        pa_input (float): Input with pressure value in Pascal.
 
     Returns:
         float: Pressure value converted into Psi.
