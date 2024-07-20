@@ -1,6 +1,6 @@
 # Conversor de Unidades
 
-Description. 
+Este projeto é de um conversor simples de unidades.
 The package package_name is used to:
 	- 
 	-

@@ -1,3 +1,6 @@
+"""_summary_
+"""
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as f:
@@ -7,15 +10,15 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="Conversor de Unidades",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Daniel Torres de Andrade",
+    author_email="danieltorresandrade@gmail.com",
+    description="Este projeto é de um conversor simples de unidades.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/Danieltandrade/Conversor-de-Unidades",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.12',
 )
