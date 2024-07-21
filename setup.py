@@ -18,6 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Danieltandrade/Unit-Converter",
     packages=find_packages(),
-    license="MIT",
+    license="MIT License",
+    keywords="unit converter, unit-converter, unit_converter",
     python_requires='>=3.12',
 )
