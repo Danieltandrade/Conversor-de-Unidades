@@ -4,10 +4,10 @@
 from setuptools import setup
 from setuptools import find_packages
 
-with open("README.md", "r") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     page_description = f.read()
 
-with open("requirements.txt") as f:
+with open("requirements.txt", encoding="utf-8") as f:
     requirements = f.read().splitlines()
 
 setup(
@@ -18,7 +18,7 @@ setup(
     description="Este projeto é de um conversor simples de unidades.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Danieltandrade/Conversor-de-Unidades",
+    url="https://github.com/Danieltandrade/Unit-Converter",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.12',
