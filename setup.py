@@ -1,4 +1,5 @@
-"""_summary_
+"""
+This project is a simple unit converter.
 """
 
 from setuptools import setup
@@ -7,19 +8,16 @@ from setuptools import find_packages
 with open("README.md", "r", encoding="utf-8") as f:
     page_description = f.read()
 
-with open("requirements.txt", encoding="utf-8") as f:
-    requirements = f.read().splitlines()
-
 setup(
-    name="Conversor de Unidades",
+    name="unit_converter_python",
     version="0.0.1",
     author="Daniel Torres de Andrade",
     author_email="danieltorresandrade@gmail.com",
-    description="Este projeto é de um conversor simples de unidades.",
+    description="This project is a simple unit converter.",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Danieltandrade/Unit-Converter",
     packages=find_packages(),
-    install_requires=requirements,
+    license="MIT",
     python_requires='>=3.12',
 )
