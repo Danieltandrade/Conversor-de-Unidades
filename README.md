@@ -3,7 +3,7 @@
 This project is a simple unit converter.
 In this first version it will be possible to convert units related to distance, pressure, temperature and weight.
 
-The package unit_converter_python is used to:
+The package unit-converter-python is used to:
 	- Distance conversion:
 		- centimeter
 		- fathom
@@ -34,10 +34,10 @@ The package unit_converter_python is used to:
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install unit_converter_python
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install unit-converter-python
 
 ```bash
-pip install unit_converter_python
+pip install unit-converter-python
 ```
 
 ## Usage
