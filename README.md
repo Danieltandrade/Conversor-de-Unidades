@@ -1,7 +1,13 @@
+![GitHub top language](https://img.shields.io/github/languages/top/Danieltandrade/Unit-Converter)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/unit_converter_python)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/unit-converter-python)
+![GitHub License](https://img.shields.io/github/license/Danieltandrade/Unit-Converter)
+![PyPI - Version](https://img.shields.io/pypi/v/unit_converter_python)
+
 # Unit Converter
 
 This project is a simple unit converter.
-In this first version it will be possible to convert units related to distance, pressure, temperature and weight.
+In version 0.0.2 it will be possible to convert units related to distance, pressure, temperature, weight and the new torque and power units.
 
 The package unit-converter-python is used to:
 	
@@ -15,6 +21,12 @@ The package unit-converter-python is used to:
 		- mile
 		- yard
 
+	- Power conversion:
+		- horse power
+		- kilowatt
+		- metric horse power
+		- watt
+
 	- Pressure Conversion:
 		- atm
 		- bar
@@ -27,6 +39,12 @@ The package unit-converter-python is used to:
 		- Fahrenheit
 		- Kelvin
 
+	- Torque conversion:
+		- kgf.m
+		- lbf.ft
+		- lbf.in
+		- nm
+
 	- Weight Conversion:
 		- Gram
 		- Kilogram
@@ -38,10 +56,12 @@ The package unit-converter-python is used to:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install unit-converter-python
 
 ```bash
-pip install unit-converter-python
+pip install unit_converter_python
 ```
 
 ## Usage
+
+This package can be used in applications where it is necessary to convert units of measurement.
 
 Here we have an example of use converting a temperature measurement from Fahrenheit to Celsius.
 
